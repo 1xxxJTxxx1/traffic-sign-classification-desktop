@@ -1,0 +1,24 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Data and runtime artifacts
+data/raw/
+data/processed/
+!data/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# Coursework files
+*.docx
+*.rar
+
+# OS
+Thumbs.db
+.DS_Store
